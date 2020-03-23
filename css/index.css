@@ -112,6 +112,122 @@ p {
     justify-content: center;
 }
 
+/* css for navigation menu */
+.nav-container a{
+    text-decoration: none;
+    /* border: solid; */
+    padding-top: 25px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;    
+    padding-top: 30px;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.nav-container a:hover{
+    color: red;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 30px;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container .fourBox {
+    width: 48%;
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black; 
+    padding-bottom: 4%;
+
+}
+.container .fourBox p{
+   padding-bottom: 8%;
+   /* margin-bottom: 5%; */
+}
+
+.container .about-container {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 2%;
+    border-bottom: 1px dashed black; 
+    
+
+}
+
+.lm-button {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.lm-button:hover{
+    color: white;
+    background-color: black;
+}
+
+.about-page .let-work-together-container {
+    margin: 5% 2% 5% 2%;
+}
+/* applies color to individual boxes */
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +259,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    padding-bottom: 20%;
+}
+
+.contact-container .lm-button {
+    margin-top: 10%;
 }
