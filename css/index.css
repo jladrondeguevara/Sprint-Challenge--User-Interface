@@ -260,3 +260,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.contact-container{
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    padding-bottom: 20%;
+}
+
+.contact-container .lm-button {
+    margin-top: 10%;
+}
