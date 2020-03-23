@@ -128,6 +128,15 @@ p {
     width: 800px;
     margin: auto;    
     padding-top: 30px;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.nav-container a:hover{
+    color: red;
 }
 
 .header-img {
@@ -176,6 +185,12 @@ p {
     padding: 8px 20px 8px 20px;
     text-decoration: none;
     color: black;
+
+}
+
+.lm-button:hover{
+    color: white;
+    background-color: black;
 }
 
 .about-page .let-work-together-container {
