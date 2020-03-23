@@ -138,7 +138,49 @@ p {
     padding: 30px;
 }
 
+.about-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+}
+
+.container .fourBox {
+    width: 48%;
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black; 
+    padding-bottom: 4%;
+
+}
+.container .fourBox p{
+   padding-bottom: 8%;
+   /* margin-bottom: 5%; */
+}
+
+.container .about-container {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 2%;
+    border-bottom: 1px dashed black; 
+    
+
+}
+
+.lm-button {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-page .let-work-together-container {
+    margin: 5% 2% 5% 2%;
+}
 /* applies color to individual boxes */
 .middle-content .boxes .box1 {
     background-color: teal;
