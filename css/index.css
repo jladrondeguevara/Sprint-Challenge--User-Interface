@@ -112,6 +112,31 @@ p {
     justify-content: center;
 }
 
+/* css for navigation menu */
+.nav-container a{
+    text-decoration: none;
+    /* border: solid; */
+    padding-top: 25px;
+    color: black;
+    margin-right: 40px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;    
+    padding-top: 30px;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 30px;
+}
 
 
 /* applies color to individual boxes */
